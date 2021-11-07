@@ -169,7 +169,7 @@ export function useVirtual({
       end: range.end,
       overscan,
       size: measurements.length,
-    })
+    }, measurements)
 
     const virtualItems = []
 
